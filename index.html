@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewTabb - Less RAM, more productivity</title>
+    <link href="/style.css?v=1.1" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="preload" href="/img/newtabb-full.png" as="Image">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Startpage Error -->
+    <div id="sp-error">
+      <button id="close-sp-error">
+        <img src="https://cdn.pixabay.com/photo/2013/07/13/12/32/forbidden-159816_960_720.png" alt="Cross" id="close-sp-error" draggable="false" />
+      </button>
+      <p id="sp-error-title">We're sorry...</p>
+      <br>
+      <p id="sp-error-txt">Due to <a href="/img/sp-error.jpg" target="_blank" rel="nofollow noopener noreferrer">Startpage not letting people search with a direct link (i.e. https://startpage.com/sp/search?q=[query])</a>, you cannot search with Startpage in NewTabb. However, we will work with Startpage and see if there is a solution to this problem as soon as possible. Thank you.</p>
+    </div>
+    <!-- Main Website -->
+    <img src="img/newtabb.png" id="logo" alt="NewTabb Logo" draggable="false" />
+    <div class="navbar">
+      <a href="/download/" rel="nofollow noreferrer noopener" id="nav-link">Download</a>
+      <a href="/support/" rel="nofollow noreferrer noopener" id="nav-link">Support</a>
+      <a href="/about/" rel="nofollow noreferrer noopener" id="nav-link">About</a>
+      <button id="help">
+        <img src="img/question-mark.svg" alt="Question mark" draggable="false" />
+      </button>
+    </div>
+    <div class="embed">
+      <img src="img/newtabb-full.png" draggable="false" alt="Search Engine Logo" id="engine-logos" />
+      <select id="select-search" title="Select Your Browsers Here!">
+        <option value="google" id="option">Google</option>
+        <option value="sp" id="option">Startpage</option>
+        <option value="bing" id="option">Bing</option>
+        <option value="brave" id="option">Brave Search</option>
+        <option value="yahoo" id="option">Yahoo</option>
+        <option value="baidu" id="option">Baidu</option>
+        <option value="yandex" id="option">Yandex</option>
+        <option value="ddg" id="option">DuckDuckGo</option>
+        <option value="ecosia" id="option">Ecosia</option>
+        <option value="firefox" id="option">Firefox</option>
+      </select>
+      <button id="check-selection">Select</button>
+      <input type="text" placeholder="Enter your search query here..." class="query" id="search-query" />
+      <button class="btn" id="search-btn">Search</button>
+    </div>
+    <br>
+    <div class="embed">
+      <input type="text" placeholder="Enter the URL here..." class="query" id="url-query" />
+      <button class="btn" id="url-btn">Go to website</button>
+    </div>
+    <a href="/update-log/log.txt" rel="nofollow noopener noreferrer" style="bottom: 0; position: absolute; margin: 10px;" target="_blank">update log</a>
+    <!-- Messages to public -->
+    <!-- JS -->
+    <script src="/js/script.js?v=1.0.5"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

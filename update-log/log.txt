@@ -1,0 +1,9 @@
+NOTE: THIS LOG IS TEMPORARY. A NEW HTML PAGE WILL BE CREATED ASAP.
+NOTE #2: Sometimes, NewTabb wouldn't update. Check the console for the version. I do not recommend you to clear your cache as that would clear your default settings.
+
+1.0.0: Website created.
+1.0.1: Fixed encoding error.
+1.0.2: URLs with https:// are supported now.
+1.0.3: Added help page.
+1.0.4: Fixed some critical bugs.
+1.0.5: URLs with http:// are supported now.
